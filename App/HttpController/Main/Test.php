@@ -23,7 +23,7 @@ class Test extends Base
                 'trade_no' => time() . rand(11111, 99999),
             );
 
-            [$status, $data] = alipayService::getInstance() -> appPay($order);
+            [$status, $data] = alipayService::getInstance() -> scanPay($order);
 
             var_dump($data);
 

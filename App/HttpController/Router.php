@@ -29,8 +29,6 @@ class Router extends AbstractRouter
 
 
 
-
-
         // api路由
         $routeCollector -> addGroup('/api', function (RouteCollector $routeCollector) {
 

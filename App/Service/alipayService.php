@@ -14,12 +14,14 @@ use EasySwoole\Component\Singleton;
 use EasySwoole\Pay\AliPay\Config;
 use EasySwoole\Pay\AliPay\GateWay;
 use EasySwoole\Pay\AliPay\RequestBean\App;
+use EasySwoole\Pay\AliPay\RequestBean\Scan;
 use EasySwoole\Pay\AliPay\RequestBean\Web;
 use EasySwoole\Pay\Pay;
 
 
 /**
  * 支付
+ * doc https://github.com/easy-swoole/pay
  * Class PayService
  * @package App\Service
  */
@@ -44,7 +46,7 @@ class alipayService
             $alipayConf = $this -> getAlipayConf();
 
             // 订单数据
-            $order = $this -> getWebPay();
+            $order = $this -> getWebPayCls();
             $order -> setSubject($params['subject']);
             $order -> setOutTradeNo($params['trade_no']);
             $order -> setTotalAmount($params['amount']);
@@ -86,7 +88,7 @@ class alipayService
             $alipayConf = $this -> getAlipayConf();
 
             // 订单数据
-            $order = $this -> getAppPay();
+            $order = $this -> getAppPayCls();
             
             $order -> setSubject($params['subject']);
             $order -> setOutTradeNo($params['trade_no']);
@@ -96,13 +98,40 @@ class alipayService
 
             $res = $pay -> aliPay($alipayConf) -> app($order) -> toArray();
 
-            var_dump($res);
-
             return [true, $params['trade_no']];
         }
         else
         {
             return [false, $validate];
+        }
+    }
+
+
+    public function scanPay( array $params) : array
+    {
+        $validate = Base::validate('alipay', $params);
+
+        if ( !$validate )
+        {
+            // 支付宝配置
+            $alipayConf = $this -> getAlipayConf();
+
+            // 订单数据
+            $order = $this -> getScanPayCls();
+
+            $order -> setSubject($params['subject']);
+            $order -> setOutTradeNo($params['trade_no']);
+            $order -> setTotalAmount($params['amount']);
+
+            $pay = $this -> getPay();
+
+            $res = $pay -> aliPay($alipayConf) -> scan($order) -> toArray();
+
+            // 验证
+//            $response = $pay -> aliPay($alipayConf)->preQuest($res);
+
+            var_dump($res);
+            return [true, $res];
         }
     }
 
@@ -159,13 +188,17 @@ class alipayService
         return $alipayConf;
     }
 
+    private function verSign()
+    {
+
+    }
 
     /**
-     * 网页支付
+     * 网页支付实例
      * @return Web
      * @throws \Throwable
      */
-    private function getWebPay() : Web
+    private function getWebPayCls() : Web
     {
         $webPay = Di::getInstance() -> get('webPay');
 
@@ -183,11 +216,11 @@ class alipayService
 
 
     /**
-     * app支付
+     * app支付实例
      * @return App
      * @throws \Throwable
      */
-    private function getApppay() : App
+    private function getAppPayCls() : App
     {
         $appPay = Di::getInstance() -> get('appPay');
 
@@ -203,6 +236,26 @@ class alipayService
         return $appPay;
     }
 
+
+    /**
+     * 获取扫码支付实例
+     * @return Scan
+     * @throws \Throwable
+     */
+    private function getScanPayCls() : Scan
+    {
+        $scanPay = Di::getInstance() -> get('sacnPay');
+
+        if ( !$scanPay )
+        {
+            $di = Di::getInstance();
+            $di -> set('scanPay', new Scan());
+
+            $scanPay = $di -> get('scanPay');
+        }
+
+        return $scanPay;
+    }
     /**
      * 构建网页支付页面
      * @param $endpoint
