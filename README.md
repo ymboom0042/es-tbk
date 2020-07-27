@@ -1,12 +1,14 @@
 # es-tbk
-easyswoole&amp;taobaoke
-es-tbk es官网：https://www.easyswoole.com/
+easyswoole&amp;taobaokees-tbk 
+
+
+es官网：https://www.easyswoole.com/
 
 测试版本 只实现了简单的领券购买返利
 
-docker镜像 docker pull ymboom/es_tbk
+docker镜像 docker pull ymboom/es-tbk
 
-运行 docker run -itd -p9501:9501 --name es_tbk ymboom/es_tbk
+运行 docker run -itd -p9501:9501 --name es-tbk ymboom/es-tbk
 
 进入容器 docker exec -it es_tbk bash
 
