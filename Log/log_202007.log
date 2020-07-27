@@ -1,0 +1,75 @@
+[2020-07-01 10:03:31][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook(' at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-07-01 15:00:57][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook(' at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]
+[2020-07-01 15:39:48][debug][notice]:[Undefined index: relation_id at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Hdk.php line:289]
+[2020-07-01 15:39:48][debug][notice]:[Undefined index: relation_id at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Hdk.php line:291]
+[2020-07-01 15:54:59][debug][notice]:[Trying to get property 'relation_id' of non-object at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Hdk.php line:286]
+[2020-07-01 16:26:28][debug][notice]:[Trying to get property 'relation_id' of non-object at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Hdk.php line:290]
+[2020-07-01 16:27:01][debug][notice]:[Trying to get property 'relation_id' of non-object at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Hdk.php line:292]
+[2020-07-01 16:27:46][debug][notice]:[Trying to get property 'relation_id' of non-object at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Hdk.php line:292]
+[2020-07-01 16:46:05][debug][notice]:[Undefined index: HTTP_HOST at file:/data/wwwroot/default/open.pipirui.cn/App/Tool/Tool.php line:35]
+[2020-07-01 17:05:42][debug][notice]:[Undefined index: HTTP_HOST at file:/data/wwwroot/default/open.pipirui.cn/App/Tool/Tool.php line:35]
+[2020-07-01 17:05:45][debug][notice]:[Undefined index: HTTP_HOST at file:/data/wwwroot/default/open.pipirui.cn/App/Tool/Tool.php line:35]
+[2020-07-01 17:05:54][debug][notice]:[Undefined index: HTTP_HOST at file:/data/wwwroot/default/open.pipirui.cn/App/Tool/Tool.php line:35]
+[2020-07-01 17:06:23][debug][notice]:[Undefined index: HTTP_HOST at file:/data/wwwroot/default/open.pipirui.cn/App/Tool/Tool.php line:36]
+[2020-07-01 17:11:36][debug][warning]:[include_once(/data/wwwroot/default/open.pipirui.cn/Tool/tbk/TopSdk.php): failed to open stream: No such file or directory at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Back.php line:27]
+[2020-07-01 17:11:36][debug][warning]:[include_once(): Failed opening '/data/wwwroot/default/open.pipirui.cn/Tool/tbk/TopSdk.php' for inclusion (include_path='.:/usr/local/php/lib/php') at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Back.php line:27]
+[2020-07-10 09:34:54][debug][error]:[Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] DNS Lookup resolve failed in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqlPool.php:22
+Stack trace:
+#0 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(295): EasySwoole\ORM\Db\MysqlPool->createObject()
+#1 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(253): EasySwoole\Pool\AbstractPool->initObject()
+#2 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(227): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqlPool.php line:22]
+[2020-07-10 09:35:20][debug][error]:[Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] DNS Lookup resolve failed in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqlPool.php:22
+Stack trace:
+#0 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(295): EasySwoole\ORM\Db\MysqlPool->createObject()
+#1 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(253): EasySwoole\Pool\AbstractPool->initObject()
+#2 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(227): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqlPool.php line:22]
+[2020-07-10 11:18:19][debug][notice]:[Undefined variable: viewPath at file:/data/wwwroot/default/open.pipirui.cn/vendor/illuminate/view/FileViewFinder.php line:136]
+[2020-07-10 11:22:38][debug][notice]:[Undefined index: access_token at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Back.php line:82]
+[2020-07-10 11:30:09][debug][notice]:[Undefined variable: data at file:/data/wwwroot/default/open.pipirui.cn/App/Runtime/Cache/View/c3818e96e3a1c38d72a1e98b6fbfe7088aad8158.php line:15]
+[2020-07-10 11:30:09][debug][notice]:[Undefined variable: data at file:/data/wwwroot/default/open.pipirui.cn/App/Runtime/Cache/View/c3818e96e3a1c38d72a1e98b6fbfe7088aad8158.php line:16]
+[2020-07-10 15:14:07][debug][error]:[Uncaught TypeError: Argument 1 passed to EasySwoole\FastCache\Cache::attachToServer() must be an instance of Swoole\Server, null given, called in /data/wwwroot/default/open.pipirui.cn/EasySwooleEvent.php on line 34 and defined in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/fast-cache/src/Cache.php:809
+Stack trace:
+#0 /data/wwwroot/default/open.pipirui.cn/EasySwooleEvent.php(34): EasySwoole\FastCache\Cache->attachToServer(NULL)
+#1 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Core.php(119): EasySwoole\EasySwoole\EasySwooleEvent::initialize()
+#2 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->globalInitialize()
+#3 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): Easy at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/fast-cache/src/Cache.php line:809]
+[2020-07-10 15:16:28][debug][error]:[Uncaught TypeError: Argument 1 passed to EasySwoole\FastCache\Cache::attachToServer() must be an instance of Swoole\Server, null given, called in /data/wwwroot/default/open.pipirui.cn/EasySwooleEvent.php on line 37 and defined in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/fast-cache/src/Cache.php:809
+Stack trace:
+#0 /data/wwwroot/default/open.pipirui.cn/EasySwooleEvent.php(37): EasySwoole\FastCache\Cache->attachToServer(NULL)
+#1 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Core.php(119): EasySwoole\EasySwoole\EasySwooleEvent::initialize()
+#2 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->globalInitialize()
+#3 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): Easy at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/fast-cache/src/Cache.php line:809]
+[2020-07-10 16:04:46][debug][notice]:[Undefined variable: return at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Hdk.php line:41]
+[2020-07-10 16:12:53][debug][notice]:[Array to string conversion at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Ztk.php line:63]
+[2020-07-10 16:12:53][debug][warning]:[file_get_contents(Arraystart_time=2020-07-10+15%3A52%3A53&end_time=2020-07-10+16%3A12%3A53&page_no=1&query_type=2&position_index=1&tk_status=12&order_scene=2): failed to open stream: No such file or directory at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Ztk.php line:66]
+[2020-07-10 16:13:27][debug][notice]:[Array to string conversion at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Ztk.php line:64]
+[2020-07-10 16:13:27][debug][warning]:[file_get_contents(Arraystart_time=2020-07-10+15%3A53%3A27&end_time=2020-07-10+16%3A13%3A27&page_no=1&query_type=2&position_index=1&tk_status=12&order_scene=2): failed to open stream: No such file or directory at file:/data/wwwroot/default/open.pipirui.cn/App/HttpController/Api/Ztk.php line:67]
+[2020-07-10 17:53:14][debug][error]:[Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[42S22] [1054] Unknown column 'create_time' in 'field list' [INSERT  INTO `order_data` (`no`, `item_id`, `trade_id`, `tk_earning_time`, `order_create_at`, `pay_price`, `parent_trade_id`, `settle_share_fee`, `pub_share_fee`, `comm_rate`, `user_pub_share_fee`, `data`, `status`, `create_time`, `updated_at`)  VALUES ('1099050881131555956+1099050881131555956', 605041915856, 1099050881131555956, 'NULL', '2020-07-03 12:06:44', 17.94, 1099050881131555956, 1.35, 1.35, 7.53, 0.72, '{"adzone_id":110637200041,"adzone_name":"爱分享","alimama_rate":"0.00","alimama_share_fee":"0.00","alipay_total_price":"17.94","click_time":"2020-07-03 12:06:03","deposit_price":"0.00","flow_source":"--","income_rate":"7.53","item_category_name":"居家日用","item_id":605041915856,"item_img":"\/\/img.alicdn.com\/tfscom\/i4\/2200695224534\/O1CN01kSOpxn1jMcM4TVzWa_!!2200695224534.jpg","item_link":"http:\/\/item.taobao.com\/item.htm?id=605041915856","item_num":1,"item_price":"128.00","it at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqliClient.php line:68]
+[2020-07-10 17:56:54][debug][error]:[Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [1364] Field 'created_at' doesn't have a default value [INSERT  INTO `order_data` (`no`, `item_id`, `trade_id`, `tk_earning_time`, `order_create_at`, `pay_price`, `parent_trade_id`, `settle_share_fee`, `pub_share_fee`, `comm_rate`, `user_pub_share_fee`, `data`, `status`)  VALUES ('1099050881131555956+1099050881131555956', 605041915856, 1099050881131555956, 'NULL', '2020-07-03 12:06:44', 17.94, 1099050881131555956, 1.35, 1.35, 7.53, 0.72, '{"adzone_id":110637200041,"adzone_name":"爱分享","alimama_rate":"0.00","alimama_share_fee":"0.00","alipay_total_price":"17.94","click_time":"2020-07-03 12:06:03","deposit_price":"0.00","flow_source":"--","income_rate":"7.53","item_category_name":"居家日用","item_id":605041915856,"item_img":"\/\/img.alicdn.com\/tfscom\/i4\/2200695224534\/O1CN01kSOpxn1jMcM4TVzWa_!!2200695224534.jpg","item_link":"http:\/\/item.taobao.com\/item.htm?id=605041915856","item_num":1,"item_price":"128.00","item_title":"全自动大号 at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqliClient.php line:68]
+[2020-07-10 18:06:03][debug][error]:[Class App\Crontab\Item\Twenty does not exist at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Crontab/Crontab.php line:41]
+[2020-07-10 18:06:51][debug][error]:[Class App\Crontab\Item\Twenty does not exist at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Crontab/Crontab.php line:41]
+[2020-07-13 11:36:40][debug][error]:[Uncaught Swoole\Exception: failed to listen server port[0.0.0.0:9501], Error: Address already in use[98] in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/ServerManager.php:59
+Stack trace:
+#0 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/ServerManager.php(59): Swoole\Server->__construct('0.0.0.0', 9501, 2, 1)
+#1 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Core.php(127): EasySwoole\EasySwoole\ServerManager->createSwooleServer(9501, 2, '0.0.0.0', Array, 2, 1)
+#2 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#3 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#4 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook(' at file:/data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/easyswoole/src/ServerManager.php line:59]

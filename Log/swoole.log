@@ -1,0 +1,196 @@
+[2020-06-30 16:19:24 *23617.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-06-30 16:19:32 *27546.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-06-30 16:20:29 *27765.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-06-30 16:20:58 *27882.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-06-30 16:21:14 *27975.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-06-30 17:22:10 *7142.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-06-30 18:06:54 $15902.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-30 18:06:54 #15901.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-30 18:06:54 $15902.0]	WARNING	swManager_check_exit_status: worker#8[pid=15912] abnormal exit, status=0, signal=1
+[2020-06-30 18:06:54 *15905.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-30 18:06:54 *15904.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-30 18:06:54 $15902.0]	WARNING	swManager_check_exit_status: worker#12[pid=15916] abnormal exit, status=0, signal=1
+[2020-06-30 18:06:54 *15910.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-30 18:06:54 *15909.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-30 18:06:54 $15902.0]	WARNING	swManager_check_exit_status: worker#11[pid=15915] abnormal exit, status=0, signal=1
+[2020-06-30 18:06:54 *15908.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-30 18:06:54 $15902.0]	WARNING	swManager_check_exit_status: worker#9[pid=15913] abnormal exit, status=0, signal=1
+[2020-06-30 18:06:54 $15902.0]	WARNING	swManager_check_exit_status: worker#10[pid=15914] abnormal exit, status=0, signal=1
+[2020-06-30 18:06:54 *15911.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-30 18:06:54 *15906.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-06-30 18:06:54 *15907.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 $11833.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 #11832.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 *11842.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 *11840.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 $11833.0]	WARNING	swManager_check_exit_status: worker#10[pid=11845] abnormal exit, status=0, signal=1
+[2020-07-01 14:59:34 *11839.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 *11841.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 *11837.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 *11838.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 $11833.0]	WARNING	swManager_check_exit_status: worker#8[pid=11843] abnormal exit, status=0, signal=1
+[2020-07-01 14:59:34 $11833.0]	WARNING	swManager_check_exit_status: worker#9[pid=11844] abnormal exit, status=0, signal=1
+[2020-07-01 14:59:34 $11833.0]	WARNING	swManager_check_exit_status: worker#11[pid=11846] abnormal exit, status=0, signal=1
+[2020-07-01 14:59:34 $11833.0]	WARNING	swManager_check_exit_status: worker#12[pid=11847] abnormal exit, status=0, signal=1
+[2020-07-01 14:59:34 *11836.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:34 *11835.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 14:59:37 *11838.3]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-07-01 14:59:54 *11839.4]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-07-01 15:02:28 $14404.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 #14403.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 *14412.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 *14413.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 *14410.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 *14407.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 *14409.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 *14411.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 *14408.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 *14406.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:02:28 $14404.0]	WARNING	swManager_check_exit_status: worker#8[pid=14414] abnormal exit, status=0, signal=1
+[2020-07-01 15:02:28 $14404.0]	WARNING	swManager_check_exit_status: worker#9[pid=14415] abnormal exit, status=0, signal=1
+[2020-07-01 15:02:28 $14404.0]	WARNING	swManager_check_exit_status: worker#10[pid=14416] abnormal exit, status=0, signal=1
+[2020-07-01 15:02:28 $14404.0]	WARNING	swManager_check_exit_status: worker#11[pid=14417] abnormal exit, status=0, signal=1
+[2020-07-01 15:02:28 $14404.0]	WARNING	swManager_check_exit_status: worker#12[pid=14418] abnormal exit, status=0, signal=1
+[2020-07-01 15:02:30 *14409.3]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
+[2020-07-01 15:06:02 $15093.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:06:02 *15100.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:06:02 *15101.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:06:02 *15096.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:06:02 *15102.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:06:02 *15097.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:06:02 #15092.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:06:02 *15099.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:06:02 *15095.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 15:06:02 $15093.0]	WARNING	swManager_check_exit_status: worker#8[pid=15103] abnormal exit, status=0, signal=1
+[2020-07-01 15:06:02 $15093.0]	WARNING	swManager_check_exit_status: worker#9[pid=15104] abnormal exit, status=0, signal=1
+[2020-07-01 15:06:02 $15093.0]	WARNING	swManager_check_exit_status: worker#10[pid=15105] abnormal exit, status=0, signal=1
+[2020-07-01 15:06:02 $15093.0]	WARNING	swManager_check_exit_status: worker#11[pid=15106] abnormal exit, status=0, signal=1
+[2020-07-01 15:06:02 $15093.0]	WARNING	swManager_check_exit_status: worker#12[pid=15107] abnormal exit, status=0, signal=1
+[2020-07-01 15:06:02 *15098.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-01 16:42:44 *31382.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 16:43:07 *1584.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 16:43:37 *1717.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 16:46:05 *1717.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:05:42 *1717.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:05:45 *1717.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:05:54 *5725.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:06:23 *5869.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:08:18 *6268.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:11:11 *6815.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:11:25 *6901.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:11:36 *7022.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:12:12 *7165.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:36:59 *11615.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:37:25 *11744.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:42:01 *12597.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:42:52 *12789.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:45:09 *13281.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:49:46 *14131.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:51:20 *14463.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:55:07 *15168.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-01 17:57:30 *15168.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:02:01 *25745.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:03:35 *26119.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:04:39 *26231.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:05:44 *26231.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:07:12 *26231.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:13:12 *27029.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:15:15 *28162.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:16:13 *28162.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:43:33 *28668.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:45:01 *1509.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:51:23 *2893.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:52:52 *2893.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:53:23 *3319.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 10:55:37 *3759.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 11:01:21 *4900.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 11:44:20 *12588.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 11:54:13 *14532.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 11:55:20 *14827.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 11:59:15 *15564.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 13:45:01 *2079.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-02 13:45:24 *2079.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-06 18:15:58 *15083.3]	NOTICE	swFactoryProcess_finish (ERRNO 1004): send 180 byte failed, because connection[fd=1] is closed
+[2020-07-10 09:34:54 *9564.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] DNS Lookup resolve failed in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqlPool.php:22
+Stack trace:
+#0 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(295): EasySwoole\ORM\Db\MysqlPool->createObject()
+#1 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(253): EasySwoole\Pool\AbstractPool->initObject()
+#2 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(227): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqlPool.php on line 22
+[2020-07-10 09:34:54 $9558.0]	WARNING	swManager_check_exit_status: worker#3[pid=9564] abnormal exit, status=255, signal=0
+[2020-07-10 09:35:20 *9650.3]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] DNS Lookup resolve failed in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqlPool.php:22
+Stack trace:
+#0 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(295): EasySwoole\ORM\Db\MysqlPool->createObject()
+#1 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(253): EasySwoole\Pool\AbstractPool->initObject()
+#2 /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/pool/src/AbstractPool.php(227): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqlPool.php on line 22
+[2020-07-10 09:35:20 $9558.0]	WARNING	swManager_check_exit_status: worker#3[pid=9650] abnormal exit, status=255, signal=0
+[2020-07-10 09:50:50 *11081.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-10 09:58:51 *11078.0]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-10 09:58:59 *11078.0]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-10 09:59:08 *14384.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-10 11:43:58 *2325.3]	WARNING	http_request_on_body (ERRNO 9010): parse multipart body failed, n=40
+[2020-07-10 17:53:14 *11584.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[42S22] [1054] Unknown column 'create_time' in 'field list' [INSERT  INTO `order_data` (`no`, `item_id`, `trade_id`, `tk_earning_time`, `order_create_at`, `pay_price`, `parent_trade_id`, `settle_share_fee`, `pub_share_fee`, `comm_rate`, `user_pub_share_fee`, `data`, `status`, `create_time`, `updated_at`)  VALUES ('1099050881131555956+1099050881131555956', 605041915856, 1099050881131555956, 'NULL', '2020-07-03 12:06:44', 17.94, 1099050881131555956, 1.35, 1.35, 7.53, 0.72, '{"adzone_id":110637200041,"adzone_name":"爱分享","alimama_rate":"0.00","alimama_share_fee":"0.00","alipay_total_price":"17.94","click_time":"2020-07-03 12:06:03","deposit_price":"0.00","flow_source":"--","income_rate":"7.53","item_category_name":"居家日用","item_id":605041915856,"item_img":"\/\/img.alicdn.com\/tfscom\/i4\/2200695224534\/O1CN01kSOpxn1jMcM4TVzWa_!!2200695224534.jpg","item_link":"http:\/\/item.taobao.com\/item.htm?id=605041915856","item_num":1,"item_price":"128.00","it in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqliClient.php on line 68
+[2020-07-10 17:53:14 $11581.0]	WARNING	swManager_check_exit_status: worker#1[pid=11584] abnormal exit, status=255, signal=0
+[2020-07-10 17:56:54 *12600.1]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [1364] Field 'created_at' doesn't have a default value [INSERT  INTO `order_data` (`no`, `item_id`, `trade_id`, `tk_earning_time`, `order_create_at`, `pay_price`, `parent_trade_id`, `settle_share_fee`, `pub_share_fee`, `comm_rate`, `user_pub_share_fee`, `data`, `status`)  VALUES ('1099050881131555956+1099050881131555956', 605041915856, 1099050881131555956, 'NULL', '2020-07-03 12:06:44', 17.94, 1099050881131555956, 1.35, 1.35, 7.53, 0.72, '{"adzone_id":110637200041,"adzone_name":"爱分享","alimama_rate":"0.00","alimama_share_fee":"0.00","alipay_total_price":"17.94","click_time":"2020-07-03 12:06:03","deposit_price":"0.00","flow_source":"--","income_rate":"7.53","item_category_name":"居家日用","item_id":605041915856,"item_img":"\/\/img.alicdn.com\/tfscom\/i4\/2200695224534\/O1CN01kSOpxn1jMcM4TVzWa_!!2200695224534.jpg","item_link":"http:\/\/item.taobao.com\/item.htm?id=605041915856","item_num":1,"item_price":"128.00","item_title":"全自动大号 in /data/wwwroot/default/open.pipirui.cn/vendor/easyswoole/orm/src/Db/MysqliClient.php on line 68
+[2020-07-10 17:56:54 $12597.0]	WARNING	swManager_check_exit_status: worker#1[pid=12600] abnormal exit, status=255, signal=0
+[2020-07-10 18:09:35 $15207.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 #15206.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 *15213.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 *15214.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 *15212.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 $15207.0]	WARNING	swManager_check_exit_status: worker#14[pid=15223] abnormal exit, status=0, signal=1
+[2020-07-10 18:09:35 *15215.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 $15207.0]	WARNING	swManager_check_exit_status: worker#13[pid=15222] abnormal exit, status=0, signal=1
+[2020-07-10 18:09:35 $15207.0]	WARNING	swManager_check_exit_status: worker#15[pid=15224] abnormal exit, status=0, signal=1
+[2020-07-10 18:09:35 *15210.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 *15211.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 *15216.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 $15207.0]	WARNING	swManager_check_exit_status: worker#12[pid=15221] abnormal exit, status=0, signal=1
+[2020-07-10 18:09:35 $15207.0]	WARNING	swManager_check_exit_status: worker#16[pid=15225] abnormal exit, status=0, signal=1
+[2020-07-10 18:09:35 $15207.0]	WARNING	swManager_check_exit_status: worker#11[pid=15220] abnormal exit, status=0, signal=1
+[2020-07-10 18:09:35 *15209.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-10 18:09:35 $15207.0]	WARNING	swManager_check_exit_status: worker#9[pid=15218] abnormal exit, status=0, signal=1
+[2020-07-10 18:09:35 $15207.0]	WARNING	swManager_check_exit_status: worker#10[pid=15219] abnormal exit, status=0, signal=1
+[2020-07-10 18:09:35 $15207.0]	WARNING	swManager_check_exit_status: worker#8[pid=15217] abnormal exit, status=0, signal=1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 #21026.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swManager_check_exit_status: worker#15[pid=21044] abnormal exit, status=0, signal=1
+[2020-07-11 09:09:39 *21030.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 *21031.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 *21036.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 *21033.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 *21032.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swManager_check_exit_status: worker#13[pid=21042] abnormal exit, status=0, signal=1
+[2020-07-11 09:09:39 *21034.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 *21035.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swManager_check_exit_status: worker#12[pid=21041] abnormal exit, status=0, signal=1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swManager_check_exit_status: worker#14[pid=21043] abnormal exit, status=0, signal=1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swManager_check_exit_status: worker#16[pid=21045] abnormal exit, status=0, signal=1
+[2020-07-11 09:09:39 *21029.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swManager_check_exit_status: worker#11[pid=21040] abnormal exit, status=0, signal=1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swManager_check_exit_status: worker#9[pid=21038] abnormal exit, status=0, signal=1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swManager_check_exit_status: worker#10[pid=21039] abnormal exit, status=0, signal=1
+[2020-07-11 09:09:39 $21027.0]	WARNING	swManager_check_exit_status: worker#8[pid=21037] abnormal exit, status=0, signal=1
+[2020-07-13 11:38:17 #21026.1]	INFO	Server is shutdown now
+[2020-07-13 18:11:22 $3659.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 #3658.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 $3659.0]	WARNING	swManager_check_exit_status: worker#13[pid=3674] abnormal exit, status=0, signal=1
+[2020-07-13 18:11:22 *3668.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 *3661.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 $3659.0]	WARNING	swManager_check_exit_status: worker#12[pid=3673] abnormal exit, status=0, signal=1
+[2020-07-13 18:11:22 $3659.0]	WARNING	swManager_check_exit_status: worker#11[pid=3672] abnormal exit, status=0, signal=1
+[2020-07-13 18:11:22 $3659.0]	WARNING	swManager_check_exit_status: worker#14[pid=3675] abnormal exit, status=0, signal=1
+[2020-07-13 18:11:22 $3659.0]	WARNING	swManager_check_exit_status: worker#15[pid=3676] abnormal exit, status=0, signal=1
+[2020-07-13 18:11:22 *3666.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 *3667.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 *3665.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 *3663.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 *3662.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 *3664.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2020-07-13 18:11:22 $3659.0]	WARNING	swManager_check_exit_status: worker#10[pid=3671] abnormal exit, status=0, signal=1
+[2020-07-13 18:11:22 $3659.0]	WARNING	swManager_check_exit_status: worker#9[pid=3670] abnormal exit, status=0, signal=1
+[2020-07-13 18:11:22 $3659.0]	WARNING	swManager_check_exit_status: worker#8[pid=3669] abnormal exit, status=0, signal=1
+[2020-07-21 15:35:56 *3662.1]	NOTICE	php_swoole_server_rshutdown (ERRNO 9003): worker process is terminated by exit()/die()
