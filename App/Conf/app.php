@@ -7,5 +7,5 @@
  */
 
 return [
-    'app_url' => 'http://open.pipirui.cn',
+    'app_url' => '',
 ];

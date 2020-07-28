@@ -7,11 +7,11 @@
  */
 
 return [
-    'app_key' => '30425935',
-    'app_secret' => 'a0bfd26d50d526abd6b4cb9890acc723',
+    'app_key' => '',
+    'app_secret' => '',
 
     // 渠道推广码 申请地址： https://survey.taobao.com/apps/zhiliao/0JpI9eizU
-    'relation_code' => 'ZJHVZ3',
+    'relation_code' => '',
 
     // 渠道授权地址
     'relation_auth_url' => 'https://oauth.taobao.com/authorize?response_type=code&client_id=@&redirect_uri=#/api/back/TbAuthCallBack&state=*&view=wap',

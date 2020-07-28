@@ -30,14 +30,14 @@ return [
     ],
 
     'conf' => [
-        'pid' => 'mm_747560065_1889750108_110648850305',
-        'tb_name' => '杨海涛_1996',
-        'url' => 'http://v2.api.haodanku.com',
-        'key' => 'jxhw',
+        'pid' => '',
+        'tb_name' => '',
+        'url' => '',
+        'key' => '',
     ],
 
     'wy' => [
-        'key' => 'V00002253Y00703964',
-        'url' => 'http://gfapi.vephp.com/',
+        'key' => '',
+        'url' => '',
     ],
 ];
